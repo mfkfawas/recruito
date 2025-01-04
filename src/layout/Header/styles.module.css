@@ -1,0 +1,4 @@
+.container {
+  @apply bg-cover bg-no-repeat bg-center h-screen relative py-8;
+  background-image: url("../../assets/imgs/header-bg.png");
+}

@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./features/header";
+import Header from "./section/header";
 // const VideoPlaySvg = lazy(() => import("./assets/svgs/video-play"));
 // import CanImg from "./assets/imgs/canidate-sourcing-graph.png";
 
