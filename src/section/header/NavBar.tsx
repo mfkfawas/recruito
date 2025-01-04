@@ -1,23 +1,22 @@
 import logo from "../../assets/imgs/logo-one.png";
-import SmallStar from "../../assets/svgs/SmallStar";
-import Button from "../../ui/Button/Button";
+import SmallStar from "../../assets/svgs/StarFillSmallBrand";
+import Button from "../../ui/Button";
+
+import styles from "./styles.module.css";
 
 export default function NavBar() {
   return (
-    <nav className="w-full flex justify-between rounded-full bg-white px-8 py-4">
+    <nav className={styles["nav-bar"]}>
       <img
         src={logo}
         alt="logo-one"
         loading="lazy"
-        className="h-[3.5rem] cursor-pointer"
+        className={styles["logo"]}
       />
 
-      <ul className="flex items-center gap-8">
+      <ul className={styles["nav-list"]}>
         <li className="relative">
-          <a
-            href="#"
-            className="text-xl font-medium gradient-text hover:underline"
-          >
+          <a href="#" className={`${styles["nav-link"]} text-gradient`}>
             <span>Home</span>
 
             <span className="absolute top-0 -right-2">
@@ -26,17 +25,17 @@ export default function NavBar() {
           </a>
         </li>
         <li>
-          <a href="#" className="text-xl font-medium hover:underline">
+          <a href="#" className={styles["nav-link"]}>
             Features
           </a>
         </li>
         <li>
-          <a href="#" className="text-xl font-medium hover:underline">
+          <a href="#" className={styles["nav-link"]}>
             Pricing
           </a>
         </li>
         <li>
-          <a href="#" className="text-xl font-medium hover:underline">
+          <a href="#" className={styles["nav-link"]}>
             Resource
           </a>
         </li>

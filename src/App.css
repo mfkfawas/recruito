@@ -4,7 +4,7 @@
   --color-text-light: #3e4757;
 }
 
-.gradient-text {
+.text-gradient {
   background: var(--brand-gradient);
   background-clip: text;
   -webkit-background-clip: text;
