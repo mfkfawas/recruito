@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  @apply font-sans min-h-screen leading-relaxed text-[1.6rem];
+  @apply font-sans min-h-screen leading-relaxed text-[1.6rem] bg-gray-100;
 }
 
 input,

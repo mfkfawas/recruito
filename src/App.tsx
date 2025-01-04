@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./features/header/header";
+import Header from "./features/header";
 // const VideoPlaySvg = lazy(() => import("./assets/svgs/video-play"));
 // import CanImg from "./assets/imgs/canidate-sourcing-graph.png";
 
@@ -23,11 +23,7 @@ function App() {
   //   </>
   // );
 
-  return (
-    <>
-      <Header />
-    </>
-  );
+  return <Header />;
 }
 
 export default App;
