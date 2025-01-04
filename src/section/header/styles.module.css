@@ -1,14 +1,14 @@
 /* NavBar */
 .nav-bar {
-  @apply w-full flex justify-between rounded-full bg-white px-8 py-4;
+  @apply w-full flex flex-col sm:flex-row items-center justify-between gap-4 rounded-full sm:bg-white px-2 lg:px-8 py-4 overflow-hidden;
 }
 
 .logo {
-  @apply h-[3.5rem] cursor-pointer;
+  @apply h-[3.5rem] w-[11.5rem] cursor-pointer;
 }
 
 .nav-list {
-  @apply flex items-center gap-8;
+  @apply flex items-center gap-4 lg:gap-8;
 }
 
 .nav-link {
@@ -21,7 +21,7 @@
 }
 
 .hero-section-title {
-  @apply w-[75rem] font-semibold text-[5.4rem] leading-[6.5rem];
+  @apply lg:w-[75rem] font-semibold text-[3.4rem] md:text-[5.4rem] md:leading-[6.5rem];
 }
 
 .hero-section-action {

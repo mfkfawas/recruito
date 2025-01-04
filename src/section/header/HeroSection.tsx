@@ -18,7 +18,7 @@ export default function HeroSection() {
       </p>
 
       {/* Description */}
-      <p className="w-[43rem]">
+      <p className="lg:w-[43rem]">
         Your fully automated hiring assistant that sources, screens, and
         interviews candidates effortlessly
       </p>
