@@ -14,7 +14,7 @@ export default function Header({ children }: PropsWithChildren) {
       <div className="absolute top-0 right-0">
         <DockerPatternBottom />
       </div>
-      {children}
+      <div className="relative z-10">{children}</div>
     </header>
   );
 }

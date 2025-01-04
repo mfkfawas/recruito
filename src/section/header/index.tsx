@@ -1,12 +1,12 @@
 import Container from "../../layout/Container";
 import HeaderLayout from "../../layout/Header";
-import OgilvySvg from "../../assets/svgs/Ogilvy";
+import NavBar from "./NavBar";
 
 export default function Header() {
   return (
     <HeaderLayout>
       <Container>
-        <OgilvySvg />
+        <NavBar />
       </Container>
     </HeaderLayout>
   );
