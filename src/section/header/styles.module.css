@@ -1,6 +1,6 @@
 /* NavBar */
 .nav-bar {
-  @apply w-full flex flex-col sm:flex-row items-center justify-between gap-4 rounded-full sm:bg-white px-2 lg:px-8 py-4 overflow-hidden;
+  @apply w-full flex flex-wrap items-center justify-center sm:justify-between gap-4 rounded-full sm:bg-white px-2 lg:px-8 py-4 sm:overflow-hidden;
 }
 
 .logo {
@@ -17,7 +17,7 @@
 
 /* HeroSection */
 .hero-section {
-  @apply grid place-items-center py-[10rem] gap-4 text-center;
+  @apply grid place-items-center py-8 sm:py-[10rem] gap-4 text-center;
 }
 
 .hero-section-title {
