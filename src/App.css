@@ -3,3 +3,10 @@
   --color-text-dark: #0b1928;
   --color-text-light: #3e4757;
 }
+
+.gradient-text {
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
