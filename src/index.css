@@ -2,10 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+*::before,
+*::after {
+  @apply p-0 m-0 box-border;
+  transition: background-color 0.3s, border 0.3s;
+}
+
 html {
-  font-size: 62.5%;
+  @apply text-[62.5%];
 }
 
 body {
-  @apply font-sans;
+  @apply font-sans min-h-screen leading-relaxed text-[1.6rem];
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:disabled {
+  cursor: not-allowed;
 }
