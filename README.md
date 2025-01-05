@@ -1,50 +1,78 @@
-# React + TypeScript + Vite
+# Recruito Landing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern landing page built using React, Vite, TypeScript, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Recruito Landing is a responsive and performance-optimized web application designed to showcase modern web development best practices, including lazy loading, reusable components, and efficient CSS management.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🛠️ Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: Frontend library for building user interfaces
+- **Vite**: Fast and modern build tool
+- **TypeScript**: Strongly typed JavaScript for better development experience
+- **Tailwind CSS**: Utility-first CSS framework
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Folder Structure
+
+src
+├── assets # Static assets (images, SVGs, etc.)
+├── layouts # Reusable layout components
+├── sections # Code for individual sections of the landing page
+├── ui # Reusable UI components (e.g., buttons)
+└── index.tsx # Application entry point
+
+---
+
+## 🚀 Getting Started
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mfkfawas/recruito.git
+   cd recruito-landing
+   ```
+
+2. To install dependencies, run:
+
+```bash
+pnpm install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3. Start the development server:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+pnpm run dev
 ```
+
+The application will be available at http://localhost:5173
+
+---
+
+## 🌐 Deployment
+
+The project is deployed on **Vercel**:  
+[Recruito Landing - Live Demo](https://recruito-uyde.vercel.app/)
+
+---
+
+## 🌟 Key Features
+
+    1.	Lazy Loading:
+    •	Heavy components and SVGs are lazy loaded for better performance.
+    •	A custom spinner is used as a fallback during lazy loading using React.Suspense.
+
+    2.	Scoped Styles:
+    •	Module styles combined with Tailwind CSS for scoped and maintainable styling.
+
+    3.	Modern CSS Resets:
+    •	CSS resets applied in index.css to ensure cross-browser consistency.
+
+    4.	Reusable Colors:
+    •	CSS variables defined in App.css for consistent theming and easy updates.
