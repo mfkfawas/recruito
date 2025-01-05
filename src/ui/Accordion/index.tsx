@@ -4,7 +4,14 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-export default function WrappedAccordion({ data }) {
+interface Props {
+  data: {
+    title: string;
+    description: string;
+  }[];
+}
+
+export default function WrappedAccordion({ data }: Props) {
   return (
     <div>
       {data.map((item) => (
