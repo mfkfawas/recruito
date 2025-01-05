@@ -3,6 +3,7 @@ import Partners from "./section/partners";
 import Features from "./section/features";
 import Benefits from "./section/benefits";
 import FAQs from "./section/faqs";
+import Testimonials from "./section/testimonials";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Benefits />
       <FAQs />
+      <Testimonials />
     </>
   );
 }
