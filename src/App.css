@@ -3,6 +3,10 @@
   --color-text-dark: #0b1928;
   --color-text-light: #3e4757;
   --color-text-blue: #004cd3;
+  --color-dark-gray: #0b1928;
+  --color-green: #1bd1c2;
+  --color-text-dark-bg: #848ea0;
+  --color-dark-card-bg: #848ea033;
 }
 
 .text-gradient {
