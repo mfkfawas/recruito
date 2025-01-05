@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
 
 export default function Section({ children }: PropsWithChildren) {
-  return <section className="w-full py-8 sm:py-[8rem]">{children}</section>;
+  return <section className="w-full pt-8 sm:pt-[8rem]">{children}</section>;
 }
