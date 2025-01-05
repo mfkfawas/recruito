@@ -4,7 +4,7 @@
 }
 
 .logo {
-  @apply h-[3.5rem] w-[11.5rem] cursor-pointer;
+  @apply cursor-pointer;
 }
 
 .nav-list {

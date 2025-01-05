@@ -5,6 +5,7 @@ import Benefits from "./section/benefits";
 import FAQs from "./section/faqs";
 import Testimonials from "./section/testimonials";
 import Demo from "./section/demo";
+import Footer from "./section/footer";
 
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
       <FAQs />
       <Testimonials />
       <Demo />
+      <Footer />
     </>
   );
 }

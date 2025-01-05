@@ -1,4 +1,4 @@
-import logo from "../../assets/imgs/logo-one.png";
+import logo from "../../assets/imgs/logo.png";
 import SmallStar from "../../assets/svgs/StarFillSmallBrand";
 import Button from "../../ui/Button";
 

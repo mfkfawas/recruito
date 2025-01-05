@@ -5,7 +5,7 @@ import grid from "../../assets/imgs/grid.png";
 
 export default function Demo({ children }: PropsWithChildren) {
   return (
-    <Section className="pb-8 relative lg:h-[50rem]">
+    <Section className="pb-8 lg:mb-[10rem] relative lg:h-[50rem]">
       <img
         src={grid}
         alt="grid"
