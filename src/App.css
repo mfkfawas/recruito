@@ -15,3 +15,9 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* MUI RESET */
+.css-rizt0-MuiTypography-root {
+  @apply !font-sans text-[1.6rem];
+  color: var(--color-text-dark);
+}
