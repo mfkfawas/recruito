@@ -16,13 +16,13 @@ export default function VideoImage() {
         <img
           src={chart}
           alt="chart"
-          className="h-[21rem] w-[21rem] absolute left-[-5rem] top-[40%] shadow-lg shadow-black-500/20 hidden"
+          className="h-[21rem] w-[21rem] absolute left-[-5rem] top-[40%] shadow-lg shadow-black-500/20"
           loading="lazy"
         />
         <img
           src={customers}
           alt="customer-data"
-          className="h-[21rem] w-[21rem] absolute right-[-5rem] top-[20%] shadow-lg shadow-black-500/20 hidden"
+          className="h-[21rem] w-[21rem] absolute right-[-5rem] top-[20%] shadow-lg shadow-black-500/20"
           loading="lazy"
         />
       </div>
