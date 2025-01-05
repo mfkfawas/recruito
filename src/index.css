@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  @apply font-sans min-h-screen leading-relaxed text-[1.6rem] bg-gray-100;
+  @apply font-sans min-h-screen leading-relaxed text-[1.6rem];
   color: var(--color-text-dark);
 }
 
