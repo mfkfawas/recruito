@@ -19,13 +19,14 @@ Recruito Landing is a responsive and performance-optimized web application desig
 
 ## 📁 Folder Structure
 
-````plaintext
+```plaintext
 src
 ├── assets        # Static assets (images, SVGs, etc.)
 ├── layouts       # Reusable layout components
 ├── sections      # Code for individual sections of the landing page
 ├── ui            # Reusable UI components (e.g., buttons)
 └── index.tsx     # Application entry point
+```
 
 ---
 
@@ -38,6 +39,8 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/mfkfawas/recruito.git
    cd recruito-landing
+   ```
+
 ````
 
 2. To install dependencies, run:
@@ -58,7 +61,7 @@ The application will be available at http://localhost:5173
 
 ## 🌐 Deployment
 
-The project is deployed on **Vercel**:  
+The project is deployed on **Vercel**:
 [Recruito Landing - Live Demo](https://recruito-uyde.vercel.app/)
 
 ---
@@ -77,3 +80,4 @@ The project is deployed on **Vercel**:
 
     4.	Reusable Colors:
     •	CSS variables defined in App.css for consistent theming and easy updates.
+````
