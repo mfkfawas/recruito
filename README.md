@@ -17,14 +17,15 @@ Recruito Landing is a responsive and performance-optimized web application desig
 
 ---
 
-## 🚀 Folder Structure
+## 📁 Folder Structure
 
+````plaintext
 src
-├── assets # Static assets (images, SVGs, etc.)
-├── layouts # Reusable layout components
-├── sections # Code for individual sections of the landing page
-├── ui # Reusable UI components (e.g., buttons)
-└── index.tsx # Application entry point
+├── assets        # Static assets (images, SVGs, etc.)
+├── layouts       # Reusable layout components
+├── sections      # Code for individual sections of the landing page
+├── ui            # Reusable UI components (e.g., buttons)
+└── index.tsx     # Application entry point
 
 ---
 
@@ -37,7 +38,7 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/mfkfawas/recruito.git
    cd recruito-landing
-   ```
+````
 
 2. To install dependencies, run:
 
