@@ -21,3 +21,7 @@
   @apply !font-sans text-[1.6rem];
   color: var(--color-text-dark);
 }
+
+/* .slick-track {
+  @apply flex flex-wrap gap-4;
+} */
