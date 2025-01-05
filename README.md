@@ -61,16 +61,13 @@ The application will be available at http://localhost:5173
 
 ## 🌐 Deployment
 
-```plaintext
 The project is deployed on **Vercel**:
 [Recruito Landing - Live Demo](https://recruito-uyde.vercel.app/)
-```
 
 ---
 
 ## 🌟 Key Features
 
-```plaintext
     1.	Lazy Loading:
     •	Heavy components and SVGs are lazy loaded for better performance.
     •	A custom spinner is used as a fallback during lazy loading using React.Suspense.
@@ -83,4 +80,3 @@ The project is deployed on **Vercel**:
 
     4.	Reusable Colors:
     •	CSS variables defined in App.css for consistent theming and easy updates.
-```
