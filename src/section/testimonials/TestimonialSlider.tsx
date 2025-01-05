@@ -55,7 +55,7 @@ const TestimonialsSlider = () => {
     <div className="max-w-full py-16 space-x-16">
       <Slider {...settings}>
         {testimonials.map((testimonial) => (
-          <div className="max-w-[50rem] mx-auto p-[2.4rem] bg-white rounded-lg border border-gray-200">
+          <div className="w-full lg:max-w-[50rem] mx-auto p-[2.4rem] bg-white rounded-lg border border-gray-200">
             {/* User Information */}
             <div
               className="flex items-center space-x-4 mb-4"

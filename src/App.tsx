@@ -4,6 +4,7 @@ import Features from "./section/features";
 import Benefits from "./section/benefits";
 import FAQs from "./section/faqs";
 import Testimonials from "./section/testimonials";
+import Demo from "./section/demo";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Benefits />
       <FAQs />
       <Testimonials />
+      <Demo />
     </>
   );
 }
