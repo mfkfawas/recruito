@@ -22,18 +22,22 @@ export default function Footer() {
               <img
                 src={facebook}
                 alt="facebook"
-                className="w-[2rem] h-[2rem]"
+                className="w-[2rem] h-[2rem] cursor-pointer"
               />
-              <img src={twitter} alt="twitter" className="w-[2rem] h-[2rem]" />
+              <img
+                src={twitter}
+                alt="twitter"
+                className="w-[2rem] h-[2rem] cursor-pointer"
+              />
               <img
                 src={linkedin}
                 alt="linkedin"
-                className="w-[2rem] h-[2rem]"
+                className="w-[2rem] h-[2rem] cursor-pointer"
               />
               <img
                 src={instagram}
                 alt="instagram"
-                className="w-[2rem] h-[2rem]"
+                className="w-[2rem] h-[2rem] cursor-pointer"
               />
             </div>
 
